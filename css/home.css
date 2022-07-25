@@ -1,0 +1,63 @@
+
+img {
+    float: left;
+}
+
+.text {
+    float: right;
+    margin-top: 2px;
+
+}
+
+.abc {
+    color: white;
+    font-size: 20px;
+    background-color: yellowgreen;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+.alink {
+    background-color: grey;
+    color: white;
+    text-decoration: white;
+    font-size: 30px;
+}
+body {
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: yellowgreen;
+}
